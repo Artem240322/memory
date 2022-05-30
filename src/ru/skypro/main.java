@@ -1,5 +1,9 @@
 package ru.skypro;
 
+import java.util.Arrays;
+
+import static ru.skypro.main.changeValue;
+
 class Main {
 
     public static void main(String[] args) {
@@ -27,4 +31,33 @@ class Main {
 
     }
 }
+public class main {
+    public static void main (String[] args) {
+        Integer[] value = {3, 4};
+        changeValue(value);
+        System.out.println(Arrays.toString(value));
+        }
 
+        private static void (Integer[] value){
+        value = Integer[] {1, 2};
+        System.out.println("Задание 7 " + value);
+
+
+    }
+}
+
+
+public class main {
+    public static void main (String[] args) {
+        Integer[] value = {3, 4};
+        changeValue(value);
+        System.out.println(Arrays.toString(value));
+    }
+
+    private static void (Integer[] value){
+        value[0] = 99;
+        System.out.println("Задание 5"+ value);
+
+
+    }
+}
