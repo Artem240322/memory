@@ -28,8 +28,9 @@ class Main {
           value = 22;
           System.out.println(value);
 
-
     }
+    /// Ответ так же 33. В данной задаче Передача ссфлочного типа через Integer. Класс обертки.
+      /// Integer value - это ссылка на значение которое смотрит на  (33).
 }
 public class main {
     public static void main (String[] args) {
