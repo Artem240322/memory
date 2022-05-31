@@ -11,10 +11,10 @@ class Main {
         changeVolue(value);
         System.out.println("Задание 5 = " + value);
     }
-
     private static void changeVolue(int value) {
-
-    }
+        value = 22;
+/// Ответ 33 - почему. а потому, что 33 - это значение (т.е. с лева это ссылка а с права это значение),
+/// все передается по значению, приметивные типы по значению.
 
 }
   public class main {
